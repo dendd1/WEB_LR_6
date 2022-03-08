@@ -1,0 +1,68 @@
+main_page:
+        path: /
+        controller: App\Controller\MainController::show_main_page
+        methods: GET
+catalog_rev:
+        path: /catalog_rev
+        controller: App\Controller\MainController::show_catalog_rev
+        methods: GET
+catalog_news:
+        path: /catalog_news
+        controller: App\Controller\MainController::show_catalog_news
+        methods: GET
+check_auth_user:
+        path: /auth_user
+        controller: App\Controller\MainController::check_auth_user
+        methods: GET
+out_user:
+        path: /out_user
+        controller: App\Controller\MainController::out_user
+        methods: GET
+account_page:
+        path: /account
+        controller: App\Controller\MainController::show_account_page
+        methods: GET
+check_review_one:
+        path: /check_one_review
+        controller: App\Controller\MainController::check_review_one
+        methods: GET
+review_page:
+        path: /review_page
+        controller: App\Controller\MainController::show_review_one
+        methods: GET
+check_news_one:
+        path: /check_one_news
+        controller: App\Controller\MainController::check_news_one
+        methods: GET
+news_page:
+        path: /news_page
+        controller: App\Controller\MainController::show_news_one
+        methods: GET
+add_comment_rev:
+        path: /add_comment_rev
+        controller: App\Controller\MainController::add_comment_rev
+        methods: GET
+add_comment_news:
+        path: /add_comment_news
+        controller: App\Controller\MainController::add_comment_news
+        methods: GET
+reg_user:
+        path: /reg_user
+        controller: App\Controller\MainController::reg_user
+        methods: GET
+form_rev:
+        path: /form_rev
+        controller: App\Controller\MainController::form_rev
+        methods: GET
+add_rev:
+        path: /add_rev
+        controller: App\Controller\MainController::add_rev
+        methods: GET
+form_news:
+        path: /form_news
+        controller: App\Controller\MainController::form_news
+        methods: GET
+add_news:
+        path: /add_news
+        controller: App\Controller\MainController::add_news
+        methods: GET
