@@ -1,0 +1,170 @@
+@font-face{
+
+	font-family: TTMilks;
+	src: url(../font/TTMilks-Bold.ttf);
+}
+
+@font-face{
+
+	font-family: Roboto;
+	src: url(../font/Roboto-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'TTMilks';
+	font-weight: 600;
+	text-transform: uppercase;
+    font-size: 16px;
+}
+
+.roboto{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+    border:0;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+ul li{
+    margin-bottom: 30px;
+    margin-right: auto;
+}
+
+ul li p{
+    cursor: pointer;
+}
+
+body{
+    background: #141111;
+}
+
+header{
+    margin-top: 125px;
+}
+
+section{
+    border-top: 1px solid #3e3d3d;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1600px;
+    
+}
+
+.box_info{
+    width: 315px;
+}
+
+.box_content{
+    width: 100%;
+}
+
+.large_text{
+    font-size: 30px;
+}
+
+.middle_text{
+    font-size: 20px;
+}
+
+.small_text{
+    font-size: 12px;
+}
+
+.gray_text{
+    color: #9e9d9d;
+}
+
+.box{
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background: #0a0808;
+    flex-direction: column;
+}
+
+
+.active{
+    color: orange;
+    text-decoration: underline solid orange;
+}
+
+
+input::-webkit-input-placeholder {
+    position: relative;
+    left: 0px;
+    display: block;
+    transition: all .6s ease-in-out;
+  }
+  input:hover::-webkit-input-placeholder { 
+    left: 140px;
+    color: transparent; 
+  }
+
+
+@media (max-width: 1620px){
+    .container{
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1250px){
+    .container{
+        width: 760px;
+    }
+
+}
+
+
+@media (max-width: 780px){
+    .container{
+        width: 600px;
+    }
+    .box_info{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 620px){
+    .container{
+        width:320px;
+    }
+
+    .large_text{
+        font-size: 15px;
+    }
+    .middle_text{
+        font-size: 12px;
+    }
+
+    .box_content{
+        display: block;
+    }
+
+}

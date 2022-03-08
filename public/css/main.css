@@ -1,0 +1,282 @@
+/* ----------------------------main----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+.promo-item{
+	width: 240px;
+	height: 440px;
+}
+
+.container_main{
+	height: 360px;
+	width: 220px;
+}
+
+
+
+
+
+.film_name_main{
+	bottom: 40px;
+}
+
+.stat_main{
+	bottom: 20px;
+}
+
+/* ----------------------------Header------------------ */
+.header{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.header_img{
+	margin: 0px 40px;
+}
+.header_btn{
+	display: inline;
+	position: relative;
+	transform: 0;
+	background-color: transparent;
+	color: white;
+	border-color: white;
+}
+
+.header_section{
+	z-index: 2;
+	background: gray;
+	opacity:1;
+	margin: 0;
+}
+
+.header_btn:hover{
+	color:black;
+}
+
+/*-------------------------- Каталог------------------------- */
+.section {
+	padding: 80px 0;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.section_header {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+
+
+
+/*Above*/
+.about {
+	width: 100%;
+	height: 520px;
+	overflow: auto;
+	margin-top: 80px;
+	/* display: flex; */
+	justify-content: space-between;
+	left: 50%;
+}
+
+.catalog_container{
+	width: 300px;
+	height: 510px;
+}
+
+.catalog_mask{
+	height: 200px;
+}
+
+.film_name{
+	bottom: 70px;
+}
+
+.stat{
+	bottom: 20px;
+}
+.ico_pig {
+	width: 48px;
+	height: 48px;
+}
+.item_btn.catalog_btn {
+	display: inline;
+	border-radius: 0;
+	border-color: transparent;
+	color: white;
+	background: transparent;
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+	transform: none;
+}
+
+.item_btn.catalog_btn:hover{
+	color: orange;
+	cursor: pointer;
+}
+
+.item_btn.catalog_btn.catalog_btn_active{
+	border-color: orange;
+	border-radius: 10px;
+	background: rgb(255, 165 ,0, 0.3);
+}
+
+.item_btn.catalog_btn.catalog_btn_active:hover{
+	color: white;
+}
+
+
+
+/*---------------------------- Наш выбор -------------------------------*/
+
+.gallery-block {
+	display: flex;
+  }
+.gallery_content_box_small{
+	height: 225px;
+	position: relative;
+}
+
+.gallery_content_box_big{
+	height: 450px;
+	position: relative;
+}
+
+.item_mask_recomend {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+}
+
+.item_text.film_name_recomend {
+	bottom: 70px;
+    left: 5%;
+	width: auto;
+	font-size: 36px;
+}
+
+.item_text.stat_recomend {
+	bottom: 20px;
+    left: 5%;
+	width: auto;
+}
+.item_btn.poster_btn_recomend {
+	left: 85%;
+    transform: translate(-50%, 0);
+    bottom: 10%;
+	transition:.2s linear,
+	color .2s linear;
+}
+
+.gallery_content_box_small ,
+.gallery_content_box_big {
+	padding: 10px;
+}
+
+.gallery_content_box_small .img_recomend,
+.gallery_content_box_big .img_recomend{
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	border: 3px solid transparent;
+}
+.img_recomend {
+	transition:.2s linear,
+	color .2s linear;
+	opacity: .75;
+
+}
+.gallery_content_box_small:hover .img_recomend,
+.gallery_content_box_big:hover .img_recomend{
+	border: 3px solid orange;
+	border-radius: 30px;
+}
+
+.gallery_content_box_big:hover .item_btn,
+.gallery_content_box_small:hover .item_btn{
+	display: inline-block;
+} 
+
+/* ---------------------Блог------------------- */
+
+.blog_theme_text{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.blog_box{
+	display: flex;
+	justify-content: space-between;
+}
+
+.blog_img{
+	width: 480px;
+	height: 240px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.blog_text{
+	text-align: justify;
+}
+
+.third_box > .blog_img{
+	border: 3px solid transparent;
+}
+
+.third_box:hover > .blog_img{
+	border: 3px solid orange;
+}
+
+.third_box:hover > p{
+	color: orange;
+}
+
+.reaction_blog {
+	top: 10px;
+}
+
+.blog_btn{
+	display: flex;
+	justify-content: center;
+}
+
+.blog_btn a{
+	padding: 10px 8px;
+	background: orange;
+	border-radius: 13px;
+}
+
+.blog_btn p{
+	color: #141111;
+}
+
+.blog_btn a:hover{
+	background: white;
+}
+
+
+/* --------------Адаптация---------- */
+@media screen and (max-width: 1200px){
+	.gallery-block {
+		display: inline;
+	}
+	.box {
+		width: 100%;
+		margin: 0;
+	}
+}

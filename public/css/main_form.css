@@ -1,0 +1,176 @@
+/*-------------------info------------------ */
+
+.info{
+    flex-direction: row;
+}
+
+.box_content{
+    display: flex;
+}
+
+.info_box{
+    width: 62%;
+    padding: 50px;
+}
+
+.info_text_box{
+    margin-top: 30px;
+    width: 100%;
+    border-bottom: 1px solid #3e3d3d;
+}
+.help_code{
+    display: flex;
+}
+.info_input{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 0 solid #3e3d3d;
+}
+
+.info_btn{
+    color: #0a0808;
+    margin: 40px auto 0 auto;
+    background: orange;
+    padding: 9px 20px;
+    border-radius: 22px;
+}
+
+.info_btn:hover{
+    background: white;
+}
+
+.info_text_img{
+    text-align: center;
+}
+
+.info_avatar_img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.info_img{
+    display: flex;
+    flex-direction: column;
+}
+.info_img a{
+    margin-top: 44px;
+}
+
+textarea{
+    resize: none;
+}
+
+@media (max-width: 770px){
+
+    .info_img{
+        width: 480px;
+        height: 420px;
+    }
+
+    .info_box{
+        width: 420px;
+        padding: 50px;
+    }
+
+}
+
+@media (max-width: 530px){
+
+
+    .info_img{
+        width: 220px;
+    }
+
+    .info_avatar_img{ 
+        width: 220px ;
+        height: 220px ;
+        object-fit: cover;
+    }
+
+    .info_box{
+        width: 220px;
+        padding: 50px;
+    }
+
+}
+
+.header_f {
+    width: 90%;
+    padding-top: 0px;
+    position: absolute;
+    top: -95px;
+    left: 3%;/*фикс щирины */
+
+    z-index: 1000;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+.container.head {
+    width: 100%; /*фикс щирины */
+    margin: 0 auto;
+}
+.header_f_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo_img {
+    width: 49px;
+    height: 49px;
+}
+.btn_header {
+    display: inline;
+    position: relative;
+    border: 3px solid white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    transition:.2s linear,
+    color .2s linear;
+}
+.btn_header:hover {
+    color: black;
+    background-color: white;
+}
+#reg_btn{
+    display: none;
+}
+.header_button{
+    border: none;
+    margin: 0;
+
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: color .2s;
+}
+.header_input {
+    width: 700px;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 0px ;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    border-radius: 30px;
+    outline:none;
+    transition:.2s linear,
+    color .2s linear;
+}
+.header_input:hover {
+    opacity: 1;
+}
+.header_input:focus {
+    opacity: 1;
+}
+.header_picture {
+    width: 32px;
+    height: 32px;
+}

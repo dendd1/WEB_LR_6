@@ -1,0 +1,60 @@
+@font-face{
+
+	font-family: TTMilks;
+	src: url(../font/TTMilks-Bold.ttf);
+}
+
+@font-face{
+
+	font-family: Roboto;
+	src: url(../font/Roboto-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'TTMilks';
+	font-weight: 600;
+	text-transform: uppercase;
+    font-size: 16px;
+}
+
+.roboto{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+body{
+    background: #141111;
+}
+
+header{
+    margin-top: 125px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1600px;
+    display: flex;
+}
+
+.large_text{
+    font-size: 30px;
+}
+
+.middle_text{
+    font-size: 20px;
+}
+
+.small_text{
+    font-size: 12px;
+}
+
+.gray_text{
+    color: #9e9d9d;
+}

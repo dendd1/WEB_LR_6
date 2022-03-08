@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+/* --------------Влад не бей------------- */
+.grey_mask {
+	background-color: gray;
+	opacity: 0.3;
+	
+}
+
+
+
+
+
+
+
+
+/* --------------Влад не бей------------- */
+header{
+	display: flex;
+	position: fixed;
+	z-index: 2;
+}
+
+input{
+	background-color: rgba(255, 255, 255, 0.137);
+	border-radius: 30px;
+	padding: 8px 30px;
+}
+/* ----------------------------Общее------------------------ */
+

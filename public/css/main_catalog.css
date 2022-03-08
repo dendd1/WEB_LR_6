@@ -1,0 +1,128 @@
+/*-------------------library------------------ */
+
+.library{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.library_content_place{
+    border: 1px solid white;
+    width: 700px;
+    border-radius: 18px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.library_poster{
+    margin-left: 10px;
+    padding: 12px 8px;
+    border-radius: 30px;
+    width: 240px;
+    height: 360px;
+    object-fit: cover;
+}
+
+.library_content_place_text{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.library_content_place_name_text{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3e3d3d;
+}
+
+.library_text{
+    margin-top: 15px;
+}
+
+.review{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: left;
+    text-transform: none;
+}
+
+
+@media (max-width: 1620px){
+    
+    .accaunt_container_info{
+        width: 800px;
+    }
+
+}
+
+@media (max-width: 1250px){
+    .accaunt_container_info{
+        width:500px;
+    }
+
+    .info_avatar_img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .library{
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 780px){
+    .library_content_place{
+        width: 600px;
+        display: block;
+    }
+
+    .library_content_place_text{
+        width: 580px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .library_poster{
+        width:550px;
+    }
+
+    .library_content_place{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+
+@media (max-width: 620px){
+    .library_content_place{
+        width: 320px;
+        display: block;
+    }
+    .library_poster{
+        width:280px;
+    }
+    .library_content_place_text{
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.info_btn{
+    color: #0a0808;
+    margin: 40px auto 0 auto;
+    background: orange;
+    padding: 9px 20px;
+    border-radius: 22px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info_btn:hover{
+    background: white;
+}
